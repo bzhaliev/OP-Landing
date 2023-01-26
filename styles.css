@@ -74,6 +74,10 @@ button {
     margin-left: auto;
 }
 
+.div1 {
+    padding: 30px;
+}
+
 .cards {
     display: flex;
     justify-content: center;
@@ -91,8 +95,9 @@ button {
 .div1-title {
     font-size: 24px;
     font-weight: 900;
+    color: #1f2937;
     text-align: center;
-    padding: 30px 0;
+    padding: 0 0 30px;
 }
 
 .cards-container {
@@ -112,4 +117,31 @@ button {
     max-width: 150px;
     /* border-style: dotted;
     border-color: black; */
+}
+
+.div2 {
+    padding: 50px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 900;
 }
