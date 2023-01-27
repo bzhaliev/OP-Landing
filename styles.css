@@ -19,7 +19,7 @@ h1 {
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 7px 0 70px;
     width: 70%;
@@ -34,13 +34,15 @@ h1 {
 .mid-content {
     display: flex;
     justify-content: center;
+
 }
 
 .container {
     display: flex;
+    justify-content: space-between;
     gap: 20px;
-    width: 70%;
     padding-bottom: 70px;
+    width: 70%;
 }
 
 ul {
@@ -71,7 +73,7 @@ button {
 }
 
 .right-links {
-    margin-left: auto;
+    
 }
 
 .div1 {
@@ -81,6 +83,7 @@ button {
 .cards {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .box {
@@ -103,7 +106,7 @@ button {
 .cards-container {
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 50%;
     gap: 50px;
 }
 
@@ -131,7 +134,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 500px;
+    max-width: 700px;
 }
 
 .quote {
@@ -144,4 +147,42 @@ button {
 .quote-author {
     align-self: flex-end;
     font-weight: 900;
+}
+
+.div3-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px;
+    background-color: #3882f6;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.div3-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.ca {
+    color: white;
+}
+
+.ca-title {
+    font-weight: 900;
+}
+
+.su-text {
+    font-weight: 100;
+}
+
+.button2 {
+    border-color: white;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: #1f2937;
+    padding: 50px 0;
 }
